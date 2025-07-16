@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Frutiger";
+  src: url("../varios/Frutiger_bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hero_imagen {
+  background-image: url("../Imagenes/Hero_1.jpg");
+  height: 80vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 5% center;
+  padding: 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hero_texto {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & h2 {
+    font-size: 45px;
+    color: white;
+  }
+  & h4 {
+    font-size: 36px;
+    color: white;
+  }
+  & h1 {
+    font-size: 54px;
+    color: rgb(182, 21, 21);
+    font-family: "Frutiger";
+  }
+
+  & h2:hover,
+  h4:hover {
+    color: black;
+  }
+  & h1:hover {
+    color: black;
+    background-color: white;
+    padding: 0 4px;
+    cursor: none;
+  }
+}
